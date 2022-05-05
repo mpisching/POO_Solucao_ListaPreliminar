@@ -36,7 +36,7 @@ public class SolucaoExe01ListaPreliminar {
         else 
             maior = z;
         
-        int menor = (x < y ? (x < z ? x : z) : y);
+        int menor = (x < y && x < z) ? x : ((y < z ) ? y : z);
         
         JOptionPane.showMessageDialog(null,
             "Para os inteiros x = " + x + ", y = " + y + " e z = " + z + " \n" +

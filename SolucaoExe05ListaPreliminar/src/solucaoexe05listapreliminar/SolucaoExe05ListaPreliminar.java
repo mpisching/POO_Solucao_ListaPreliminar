@@ -27,7 +27,7 @@ public class SolucaoExe05ListaPreliminar {
                 + "Informe o código do produto."));
         switch (codigo) {
             case 1: JOptionPane.showMessageDialog(null, "Alimento não perecível."); break;
-            case 2: 
+            case 2:
             case 3:
             case 4: JOptionPane.showMessageDialog(null, "Alimento perecível."); break;
             case 5: 

@@ -54,7 +54,7 @@ public class SolucaoExe08ListaPreliminar {
                 lucroMaior20++;
             }
             
-            valorTotalCompra += precoCompra;
+            valorTotalCompra += precoCompra;//valorTotalCompra = valorTotalCompra + precoCompra
             valorTotalVenda += precoVenda;
 
             continuar = JOptionPane.showConfirmDialog(null, "Deseja registrar um novo produto? ", 
@@ -75,6 +75,7 @@ public class SolucaoExe08ListaPreliminar {
         resultado.append(lucroEntre10e20).append(" apresenta(m) lucro entre 10% e 20%\n");
         resultado.append(lucroMaior20).append(" apresenta(m) lucro maior que 20%");
         JOptionPane.showMessageDialog(null, resultado);
+        //System.out.println(resultado);
     }
     
 }

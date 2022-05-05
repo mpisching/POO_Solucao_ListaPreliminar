@@ -4,6 +4,8 @@
  */
 package solucaoexe12listapreliminar;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author mpisc
@@ -72,8 +74,18 @@ public class SolucaoExe12ListaPreliminar {
             } while (opcao != 0);
             System.out.print("Executar novamente (S/N)? ");
             op = entrada.next().charAt(0);
+            
         } while (op == 's' || op == 'S');
     }
+    
+    // comentário de linha
+    /*
+        comentário de bloco
+    */
+    
+    /**
+     * comentário javadoc
+     */
     
     /**
      * Método para calcular a area do trapézio

@@ -36,7 +36,7 @@ public class SolucaoExe03ListaPreliminar {
                 System.out.println("O triângulo é do tipo ESCALENO!!");
             } else if (a == b && b == c) {
                 System.out.println("O triângulo é do tipo EQUILATERO!!");
-            }
+            } 
         } else {
             System.out.println("Os lados informados não formam um triângulo");
         }

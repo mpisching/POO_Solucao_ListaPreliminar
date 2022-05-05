@@ -25,11 +25,25 @@ public class SolucaoExe02ListaPreliminar {
     public static void main(String[] args) {
         float raio = Float.parseFloat(
                 JOptionPane.showInputDialog("Informe o raio de um círculo: "));
+        //solução simplificada - operações diretas na chamada da função para imprimir os resultados
         JOptionPane.showMessageDialog(null,
             "***** Dados do círculo ******\n" +
             "Diâmetro = " + (2 * raio) + "\n" +
             "Circunferência = " + (2 * Math.PI * raio) + "\n" +
             "Área = " + Math.PI * Math.pow(raio, 2.0));
+        
+        //ou 
+        //solução completa - operações de cálculo separadas da função para imprimir os resultados
+//        float area = (float) Math.PI * (float) Math.pow(raio, 2.0);
+//        float circunferencia = (float)(2 * Math.PI * raio);
+//        float diametro = (2 * raio);
+//                JOptionPane.showMessageDialog(null,
+//            "***** Dados do círculo ******\n" +
+//            "Diâmetro = " + diametro + "\n" +
+//            "Circunferência = " + circunferencia + "\n" +
+//            "Área = " + area);
+
+        //area = Math.PI * (raio * raio)
     }
     
 }
